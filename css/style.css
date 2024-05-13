@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/OpenSans.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "OpenSans";
+}
+
+:root{
+    --color-white: #fff;
+    --color-black: #000000;
+    --color-lite-gray: #79787A;
+}
+
+
+section nav ul a {
+    color: var(--color-white);
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+section nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 8vw;
+    text-decoration: none;
+    position: relative;
+    padding-top: 1vw;
+}
+
+section.str{
+    justify-items: center;
+}
+
+section nav div a{
+    background-color: var(--color-white);
+    padding: 16px 10px;
+    border-radius: 0px 0px 10px 10px ;
+    text-decoration: none;
+    color: var(--color-black);
+    
+}
+
+section nav div a.button:hover{
+    transform: scale(2);
+    transition: all 0.5s;
+}
+
+main section.str{
+    background-image: url(../image/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: grid;
+    background-position: 0% 50%;
+    
+}
+
+
+section nav>div{
+    
+    row-gap: 20px;
+    grid-column: 2/3;
+    grid-template-rows: max-content;
+    height: 64%;
+    padding: 9vw;
+}
+
+section nav div p{
+    color: var(--color-lite-gray);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+div.home{
+    padding-left: 10px;
+    padding-top: 13vw;
+}
+
+section nav div p span{
+    color: var(--color-white);
+}
+
+section nav div h1{
+    color: var(--color-white);
+    font-size: 40px;
+}
+
+main.time{
+    background-image: url(../image/2.png);
+    height: 200vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+section.banner h1{
+    display: grid;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 40px 0;
+    color: var(--color-white);
+}
+    
+
+section.banner div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    padding-top: 20px;
+    color: var(--color-white);
+    padding-left: 210px;
+    row-gap: 20px;
+}
+
+section.banner div article svg{
+    height: 40px;
+    
+}
+
+section.banner div article{
+    border: var(--color-white) 1px solid;
+    border-radius: 10px;
+    width: 32vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    padding: 50px 50px;
+    column-gap: 20px;
+    font-size: 20px;
+    
+    
+}
+
+section.reclama img{
+    width: 100%;
+    height: 100%;
+    padding: 15vw 15vw 13vw 15vw;
+    border-radius: 18vw;
+    background-size: cover;
+    
+}
+
+section.tovar main div.left h1{
+    font-size: 40px;
+}
+
+section.tovar main div.left{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+
+}
+
+
+section.tovar main div.right{
+    font-size: 20px;
+}
+
+
+section.tovar main div.right{
+    display: grid;
+    grid-template-columns: 13vw 10vw;
+
+
+}
+
+section.tovar main{
+    padding-left: 14vw;
+    display: grid;
+    grid-template-columns: 50vw 10vw;
+    text-align: center;
+    align-items: center;
+}
+
+h3{
+    color: white;
+}
+
+.fr{
+    color: var(--color-lite-gray);
+    padding-top: 1vw;
+}
+
+.gh{
+    color: white;
+    padding-top: 2vw;
+}
+
+.bn{
+    color: white;
+}
+
+
+
+main section.btn article.cardn:hover{
+    transform: scale(1.04);
+    transition: all 0.5s;
+  }
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+ 
+main section.btn div.data a{
+    justify-items: left;
+    padding-left: 13vw;
+    font-size: 24px;
+    padding-right: 1vw;
+    text-decoration: none;
+    color: var(--color-white);
+
+}
+
+main section.btn div.data div.mg p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main section.btn div.data{
+    padding-left: 2vw;
+}
+
+.cardn{
+    background-color: black;
+    height: 30vw;
+    width: 25vw;
+}
+
+main section.btn div.sos img{
+    width: 100%;
+}
+
+
+div.f{
+    opacity: 0.8;
+    list-style: none;
+    font-family: Montserrat;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40PX;
+    padding-left: 10vw;
+}
+
+.svg div{
+    display: grid;
+    grid-template-columns: 10vw 1fr;
+    font-size: 27px;
+    font-family: Regular;
+}
+
+.svg div h1{
+    color: var(--color-white);
+}
+
+article ul{
+    list-style: none;
+}
+
+
+hr{
+    width: 80%;
+    margin: 2% 10% 0%;
+    border: 2px solid var(--color-black);
+}
+
+.svg ul p{
+    color: var(--color-white);
+}
+
+.svg ul li{
+    color: var(--color-lite-gray);
+}
+
+article ul li{
+    color: var(--color-lite-gray);
+    padding-top: 10px;
+}
+
+article ul h1{
+    color: var(--color-white);
+}
+
